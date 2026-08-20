@@ -45,7 +45,7 @@ LOCAL_GATEWAY_PORT=8080
 1. Install the CRD and controller
 
 ```bash
-oc apply -f https://github.com/kubernetes-sigs/agent-sandbox/releases/latest/download/manifest.yaml
+oc apply -f https://github.com/kubernetes-sigs/agent-sandbox/releases/download/v0.5.5/sandbox-with-extensions.yaml
 ```
 
 2. Verify readiness
