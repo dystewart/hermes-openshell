@@ -1,0 +1,17 @@
+model:
+  default: "gpt-5.5"
+  provider: "custom"
+  base_url: "https://inference.local/v1"
+  api_mode: "chat_completions"
+
+terminal:
+  backend: "local"
+  cwd: "/sandbox"
+  timeout: 300
+
+memory:
+  memory_enabled: true
+  user_profile_enabled: true
+
+display:
+  streaming: true
