@@ -114,7 +114,7 @@ oc -n openshell-test port-forward service/openshell-test 8080:8080
 ```bash
 openshell gateway add http://127.0.0.1:8080 \
   --local \
-  --name openshift-dylan
+  --name dylan-hermes
 openshell status
 ```
 
